@@ -17,7 +17,7 @@ _by Phillip Camu_
 
 **Alright lets "git" you set up!**  (Warning many git puns will be used)  
 **1 -** Well first off, you should start off by creating a github account on **[Github.com](github.com)** (its free dont worry).  Once you're done creating your github account, lets start creating your SSH Key!    
-**2 -** Go to [Github.com](github.com), and click your profile icon in the top right. Then click the "Settings" button, which should look something like this: (Add screenshot)  
+**2 -** Go to [Github.com](https://github.com/), and click your profile icon in the top right. Then click the "Settings" button, which should look something like this: (Add screenshot)  
 **3 -** After you click settings, navigate to the SSH and GPG section on the left sidebar. (Add screenshot)   
 **4 -** After getting to the SSH and GPG section, click the "New SSH Key" button on the top right of the website right under your profile icon. (Add screenshot)  
 **5 -** Next, you're gonna want to name it "cloud9" (DONT PRESS ADD SSH KEY YET)  
@@ -27,7 +27,7 @@ _by Phillip Camu_
 **9 -** Now go back to [cloud9](c9.io),(considering you have a github coding space set up, if you don't create one!) and open your workspace.     
 **10 -** Click on the command line which should be on the bottom of the screen, and paste "ssh -T git@github.com", and the message "Hi (username)! You've successfully authenticated, but GitHub does not provide shell access._
 "  
-**After you've done that, you've finished your initial set up! Let's get to setting up your first repo!** 
+**After you've done that, you've finished your initial set up! Let's get to setting up your first repo!**
 
 
 
@@ -38,10 +38,10 @@ _by Phillip Camu_
 **Alright lets "git" your first repo set up!**  
 **1 -** Open your c9 workspace, and find the `command` line.   
 **2 -** Just to make sure, lets cd into your workspace/go to your workspace by using the command: `cd ~/workspace`  
-**3 -** Next, lets make the directory you will turn into a repository by using the command: `mkdir first-repo`
+**3 -** Next, lets make the directory you will turn into a repository by using the command: `mkdir first-repo`  
 **4 -** Alright now that you've made the directory, lets go to it by using: `cd first-repo`  
 **5 -** Lets initialize/put git into your directory to turn it into a repository by using: `git init`  
-**6 -** Alright now lets add the first file to the repository
+**6 -** Alright now lets add the first file to the repository.
 
 
 
