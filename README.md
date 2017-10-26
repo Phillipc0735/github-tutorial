@@ -16,10 +16,11 @@ _by Phillip Camu_
 ## Initial Setup
 
 **Alright lets "git" you set up!**  (Warning many git puns will be used)  
+
 **1 -** Well first off, you should start off by creating a github account on **[Github.com](https://github.com/)** (its free dont worry).  Once you're done creating your github account, lets start creating your SSH Key!    
 **2 -** Go to [Github.com](https://github.com/), and click your profile icon in the top right. Then click the "Settings" button.   
 **3 -** After you click settings, navigate to the SSH and GPG section on the left sidebar.   
-**4 -** After getting to the SSH and GPG section, click the "New SSH Key" button on the top right of the website right under your profile icon.    
+**4 -** After getting to the SSH and GPG section, click the "New SSH Key" button on the top right of the website right under your profile icon.   
 **5 -** Next, you're gonna want to name it "cloud9" (DONT PRESS ADD SSH KEY YET)  
 **6 -** After naming it, go to your cloud9 tab/page: [c9.io](https://c9.io/?redirect=0) (considering you have an account already set up, if you don't make one!) and click the gear icon next to your profile picture and the plus sign.  
 **7 -** Then, go to the SSH Keys section under billing & settings, and copy the **2nd** SSH Key and paste into your Github page, right under where you named the SSH Key.  
@@ -27,7 +28,7 @@ _by Phillip Camu_
 **9 -** Now go back to [cloud9](https://c9.io/?redirect=0),(considering you have a github coding space set up, if you don't create one!) and open your workspace.     
 **10 -** Click on the command line which should be on the bottom of the screen, and paste "ssh -T git@github.com", and the message "Hi (username)! You've successfully authenticated, but GitHub does not provide shell access._
 "  
-**After you've done that, you've finished your initial set up! Let's get to setting up your first repo!** 
+**After you've done that, you've finished your initial set up! Let's get to setting up your first repo!**
 
 
 
@@ -49,6 +50,7 @@ _by Phillip Camu_
 **11 -** Now lets give it the name "first-repo" (NAME SHOULD ALWAYS MATCH WITH REPOSITORY IN CLOUD 9) and press create repository!  
 **12 -** After making the repository you should see a page that shows 2 boxes of code. The first box is labeled "... or create a new repository on the command line" and the second should be labeled "... or push an existing repository from the command line". Copy and paste the lines of code in the **2ND** box and paste each code one at a time in your c9 command line.   
 **13 -** Now you can "push" (send the commits to your remote repo)  your commit using the command: `git push` and you should see your changes on [github.com](https://github.com/) when you go to your profile and check your repositories! 
+
 
 
 
